@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #F1F1F1;
+    font-family: sans-serif ;
+}
+
+.header {
+    padding: 15px;
+    border-bottom: 3px solid #32b9cd;
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #32b9cd;
+    font-weight: 900;
+
+}
+
+ul {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    color: #e3b062;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.banner {
+    background-image: url("./bg-jelly-fish-para_outras_pags.png");
+    padding: 100px 0;
+}
+
+.banner .container {
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.caixa-formulario {
+    background-color: #e5e5e5;
+    padding: 10px 98px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .caixa-formulario h2 {
+        color:#e6005a;
+        margin-bottom: 20px;
+    }
+    
+    .campo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .campo input {
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #26bbf2;
+        color: #000000;
+        
+    }
+    
+    .campo label {
+        color:#e6005a;
+        margin: 15px 0;
+        margin-top: 10px;
+    }
+    
+    .caixa-formulario button {
+        margin-top: 20px;
+        width: 120px;
+        color: #ffffff;
+        background-color: #e6005a;
+        padding: 10px 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .caixa-formulario button:hover{
+        opacity: 0.8;
+    }
+    .footer {
+        padding: 45px 0;
+        background-color: #32b9cd;
+    }
+    .footer .container {
+    justify-content: center;
+    }
+    
+    .footer p {
+        color: #FFFFFF;
+    }
