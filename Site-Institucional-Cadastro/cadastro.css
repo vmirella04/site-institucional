@@ -37,7 +37,7 @@ li {
     text-decoration: none;
     cursor: pointer;
 }
-
+ 
 .banner {
     background-image: url("./bg-jelly-fish-para_outras_pags.png");
     padding: 100px 0;
@@ -109,4 +109,10 @@ li {
     
     .footer p {
         color: #FFFFFF;
+    }
+
+    li a {
+        color: #e3b062;
+        text-decoration: none;
+        cursor: pointer;
     }
